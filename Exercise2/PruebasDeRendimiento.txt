@@ -1,0 +1,36 @@
+Objetivo principal: 
+    Evaluar el rendimiento del sitio web "El Tiempo" - https://www.eltiempo.com/ 
+    para asegurar que cumpla con los estandares de carga correctos
+
+    Herramienta a utilizar:
+        Jmeter
+
+    Cantidad de Usuarios por ser simulados: 
+        Entre 30 y 50 usuarios simultaneos
+
+    Flujo de usuarios:
+        Los usuarios se mostraran desde distintos lugares del mundo
+
+    Casos de prueba:
+
+        1. Inicio de sesion de muchos usuarios
+        - Mostrar la carga para el inicio de sesion cuando ingresan todos los usuarios.
+        - Medir tiempo de respuesta para que los usuarios ingresen.
+        - Asegurarse de que el tiempo de carga de la peticion sea maximo de 4 segundos.
+
+        2. Tiempos de carga en la pagina principal
+        - Mostrar la carga para la pagina principal cuando ingresen todos los usuarios.
+        - Medir tiempo de respuesta para que la pagina cargue completamente.
+        - Asegurarse de que el tiempo de carga de la pagina sea maximo de 2 segundos.
+
+        3. Carga de noticias asincronas
+        - Mostrar la carga para las noticas asincronas cuando ingresen todos los usuarios.
+        - Medir tiempo de respuesta para que las noticias carguen completamente.
+        - Asegurarse de que el tiempo de carga de las noticas sea maximo de 5 segundos.
+
+        4. Comentarios publicados
+        - Mostrar la carga de la comentarios que pueden ser realizados
+        al mismo tiempo por cierta cantidad de usuarios.
+        - Medir tiempo de respuesta para que los comentarios sean publicados correctamente.
+        - Asegurarse de que el tiempo de publicacion para los comentarios sea maximo de 4 segundos.
+
