@@ -36,3 +36,12 @@ Para ejecutar las pruebas, utiliza el siguiente comando:
 
 ```bash
 npx playwright test
+```
+
+## Visualizacion de Resultados
+
+Para ejecutar el reporte de pruebas ejecutadas, utiliza el siguiente comando:
+
+```bash
+npx playwright show-report
+```
